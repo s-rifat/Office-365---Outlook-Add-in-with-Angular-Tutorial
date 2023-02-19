@@ -1,4 +1,4 @@
-# Office-365-Outlook-Add-in-with-Angular
+# How to develop Office 365 - Outlook Add-in with Angular
 
 **Create an Outlook Add-in Project** \
 `npm install -g yo generator-office` \
