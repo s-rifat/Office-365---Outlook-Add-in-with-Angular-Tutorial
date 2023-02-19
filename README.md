@@ -78,7 +78,7 @@
 	`git clone https://github.com/s-rifat/generate-trusted-ssl-certificate.git`\
 	`cd generate-trusted-ssl-certificate`\
 	`bash generate.sh`\
-*	Go to _C/Users/{your-name}/generate-trusted-ssl-certificate_ folder (the location where you executed the git commands)
+*	Go to _C/Users/{your-name}/generate-trusted-ssl-certificate_ folder (the location where you have executed the git commands)
 *	Double click on the certificate _(server.crt)_
 *	Click on the button _Install Certificate …_
 *	Select _Local Machine_
@@ -116,10 +116,12 @@
 * Select _My add-ins_, then click _Add a custom add-in_, after that click _Add from file_
 
 
-![image](https://user-images.githubusercontent.com/47311938/219959314-5de1e01a-e96c-410e-a756-47b333efab90.png)
+![image](https://user-images.githubusercontent.com/47311938/219960879-5ffd22e7-c624-4396-ac4d-1bbbb5d456dd.png)
+
 
 
 *	Open the manifest file
+
 
 
 ![image](https://user-images.githubusercontent.com/47311938/219959673-93445989-479a-491d-8c8e-4dbf029ab30e.png)
@@ -146,7 +148,7 @@
 * We can access outlook object using: `Office.context.mailbox.item` 
 
 
-![image](https://user-images.githubusercontent.com/47311938/219959812-ee6cb228-df10-4152-9c26-d03f5673e4da.png)
+![image](https://user-images.githubusercontent.com/47311938/219960987-4fbf44a5-bb05-4d06-9e98-b0b0fb5443b3.png)
 
 
  **Special credit to [initgrep](https://www.initgrep.com/posts/javascript/angular/microsoft-office-addin-using-angular-cli)
