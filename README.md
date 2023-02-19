@@ -133,10 +133,11 @@
 ![image](https://user-images.githubusercontent.com/47311938/219959709-0da6f988-aaa2-4bf4-b2f4-a68ddda66a6d.png)
 
 
-* Open a message, click the three dots, click outlook-add-in, click Show Taskpane
+* Open a message, click the three dots, click testAddin, click Show Taskpane
 
 
-![image](https://user-images.githubusercontent.com/47311938/219959740-2c1b9eb1-0251-4073-9ccc-26c71987f5b5.png)
+![image](https://user-images.githubusercontent.com/47311938/219962363-abf0d9af-b534-4b27-8789-842b7dbb4012.png)
+
 
 
 * If everything works fine, we will see our Outlook Add In with default Angular Template.
