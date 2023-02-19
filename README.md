@@ -153,6 +153,8 @@
 
 [Video Tutorial](https://youtu.be/2LoSHS5mpCY)
 
+[Official Documentation](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/)
+
  **Special credit to [initgrep](https://www.initgrep.com/posts/javascript/angular/microsoft-office-addin-using-angular-cli)
  and [Ragavan Rajan](https://ragavanrajan.medium.com/building-office-add-in-using-angular-8-209624ba61ed) for their blogs.**
 
