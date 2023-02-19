@@ -77,7 +77,7 @@
 *	Type the following three commands:\
 	`git clone https://github.com/s-rifat/generate-trusted-ssl-certificate.git`\
 	`cd generate-trusted-ssl-certificate`\
-	`bash generate.sh`\
+	`bash generate.sh`
 *	Go to _C/Users/{your-name}/generate-trusted-ssl-certificate_ folder (the location where you have executed the git commands)
 *	Double click on the certificate _(server.crt)_
 *	Click on the button _Install Certificate …_
