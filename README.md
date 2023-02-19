@@ -150,6 +150,7 @@
 
 ![image](https://user-images.githubusercontent.com/47311938/219960987-4fbf44a5-bb05-4d06-9e98-b0b0fb5443b3.png)
 
+[Video Tutorial](https://youtu.be/2LoSHS5mpCY)
 
  **Special credit to [initgrep](https://www.initgrep.com/posts/javascript/angular/microsoft-office-addin-using-angular-cli)
  and [Ragavan Rajan](https://ragavanrajan.medium.com/building-office-add-in-using-angular-8-209624ba61ed) for their blogs.**
