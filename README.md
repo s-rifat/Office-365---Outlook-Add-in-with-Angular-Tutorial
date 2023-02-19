@@ -1,6 +1,6 @@
 # Office-365-Outlook-Add-in-with-Angular
 
-**Create an Outlook Add-in Project** 
+**Create an Outlook Add-in Project** \
 `npm install -g yo generator-office` \
 `yo office`
 
@@ -24,18 +24,18 @@
 
 **Transfer Files from testAddin to testAngular**
 * (Optional) Copy all the images from the _assets_ folder of _testAddin_ to _src/assets_ folder of _testAngular_
-* Copy the manifest.xml from “outlook-add-in” and paste it in the root folder of “demo-angular-addin”
+* Copy the _manifest.xml_ from _testAddin_ and paste it in the root folder of _testAngular_
 
 **Make changes in Manifest file**
 * Find _taskpane.html_ in the manifest file and replace it with _index.html_
-* Find _https://localhost:3000_ in the manifest file and replace it with _https://localhost:4200_. The URL should start with _https_ not _http_.
+* Find https://localhost:3000 in the manifest file and replace it with https://localhost:4200. The URL should start with _https_ not _http_.
 
 **Install dependencies** \
 `npm install --save @microsoft/office-js` \
 `npm install --save @microsoft/office-js-helpers` \
 `npm install --save office-ui-fabric-js`
 
-**Install dev dependencies**
+**Install dev dependencies** \
 `npm install --save-dev @types/office-js`\
 `npm install --save-dev @types/office-runtime`\
 `npm install --save-dev office-addin-debugging`\
@@ -97,6 +97,8 @@
 
 * In _package.json_ file add `"start-ssl": "ng serve --ssl true --ssl-cert \"ssl/server.crt\" --ssl-key \"ssl/server.key\""` under scripts.
 * Use this command `npm run start-ssl`, it will run the angular project in https://localhost:4200
+
+![image](https://user-images.githubusercontent.com/47311938/219960773-8ac6f7f8-59a8-44d5-8208-f77c9cc3111f.png)
 
 **Side Load Outlook Add-in**
 *	Go to https://outlook.live.com/ and sign in with your onmicrosoft account \
