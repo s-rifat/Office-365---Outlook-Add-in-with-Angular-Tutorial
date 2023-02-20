@@ -1,6 +1,6 @@
 # How to develop Office 365 - Outlook Add-in with Angular
 
-Assuming that latest Node.js and Git are already installed.
+Assuming that the latest Node.js and Git are already installed.
 
 **Create an Outlook Add-in Project** \
 Install the office Yeoman generator : `npm install -g yo generator-office` \
