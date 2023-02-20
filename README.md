@@ -1,8 +1,10 @@
 # How to develop Office 365 - Outlook Add-in with Angular
 
+Assuming that latest Node.js and Git are already installed.
+
 **Create an Outlook Add-in Project** \
-`npm install -g yo generator-office` \
-`yo office`
+Install the office Yeoman generator : `npm install -g yo generator-office` \
+Generate the office adding project with command: `yo office`
 
 * _Choose a project type:_
     Office Add-in Task Pane project using Angular framework
@@ -18,9 +20,9 @@
 
 
 **Create an Angular Project**\
-`npm install -g @angular/cli`\
-`ng new testAngular`\
-`cd testAngular`
+Install the Angular CLI: `npm install -g @angular/cli`\
+Generate an angular app: `ng new testAngular`\
+Change directory to the root of Angular project: `cd testAngular`
 
 **Transfer Files from testAddin to testAngular**
 * (Optional) Copy all the images from the _assets_ folder of _testAddin_ to _src/assets_ folder of _testAngular_
@@ -96,9 +98,11 @@
 ![image](https://user-images.githubusercontent.com/47311938/219958652-21636754-836d-48b1-bef0-fba10d59c6bb.png)
 
 * In _package.json_ file add `"start-ssl": "ng serve --ssl true --ssl-cert \"ssl/server.crt\" --ssl-key \"ssl/server.key\""` under scripts.
-* Use this command `npm run start-ssl`, it will run the angular project in https://localhost:4200
 
 ![image](https://user-images.githubusercontent.com/47311938/219960773-8ac6f7f8-59a8-44d5-8208-f77c9cc3111f.png)
+
+* Use this command `npm run start-ssl`, it will run the angular project in https://localhost:4200
+
 
 **Side Load Outlook Add-in**
 *	Go to https://outlook.live.com/ and sign in with your onmicrosoft account \
