@@ -51,6 +51,10 @@ Change directory to the root of Angular project: `cd testAngular`
 ![image](https://user-images.githubusercontent.com/47311938/219958768-4bd4a762-1706-47f1-b50e-93dd03552907.png)
 
 **Update index.html**\
+`<script>
+    let pushStateRef = history.pushState;
+    let replaceStateRef = history.replaceState; </script>`
+  
 `<script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>` 
 
 `<link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.min.css" />` 
@@ -59,7 +63,13 @@ Change directory to the root of Angular project: `cd testAngular`
 
 `<script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>`
 
-![image](https://user-images.githubusercontent.com/47311938/219958085-c356920f-265b-4641-ae17-a757bdc2da24.png)
+`<script>
+    history.pushState = pushStateRef;
+    history.replaceState = replaceStateRef;
+    delete pushStateRef;
+    delete replaceStateRef;</script>`
+
+![image](https://github.com/s-rifat/Office-365-Outlook-Add-in-with-Angular/assets/47311938/5df36c8e-d953-446d-894e-7c9c137d9952)
 
 **Update main.ts** \
 `Office.initialize = function () {
